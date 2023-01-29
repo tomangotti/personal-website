@@ -62,10 +62,14 @@ function History(){
     return (
         <>
         <h1>Saved Games</h1>
+        <br></br>
         <h2>School</h2>
+        <br></br>
         {edu}
         <br></br>
+        <br></br>
         <h2>Work</h2>
+        <br></br>
         {exp}
         </>
     )
