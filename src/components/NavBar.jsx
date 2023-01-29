@@ -11,8 +11,7 @@ function NavBar(){
                     <td><Link to="/about"><button>About</button></Link></td>
                     <td><Link to="/skills"><button>Skills</button></Link></td>
                     <td><Link to="/projects"><button>Projects</button></Link></td>
-                    <td><Link to="/experience"><button>Experience</button></Link></td>
-                    <td><Link to="/education"><button>Education</button></Link></td>
+                    <td><Link to="/history"><button>History</button></Link></td>
                     <td><Link to="/contact"><button>Contact</button></Link></td>
                 </tr>
             </thead>
