@@ -29,7 +29,7 @@ function Skills(){
         }
     ]
     const grid =skills.map((skill) => {
-        return (<div className="card">
+        return (<div className="card" key={skill.name}>
             <img src={skill.image} alt={skill.language} />
         </div>)
     })
