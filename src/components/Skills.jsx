@@ -17,7 +17,7 @@ function Skills(){
         },
         {
             language: "Rails",
-            image: "https://assets.stickpng.com/images/58483107cef1014c0b5e4aa3.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
         },
         {
             language: "HTML",
