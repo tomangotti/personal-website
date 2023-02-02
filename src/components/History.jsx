@@ -44,18 +44,18 @@ function History(){
     ]
     const exp = work.map((job, index) => {
         return (<div className="history" key={index}>
-            <h4>{job.position}</h4>
-            <h5>{job.company}</h5>
-            <h5>{job.years}</h5>
+            <h3>{job.position}</h3>
+            <h3>{job.company}</h3>
+            <h3>{job.years}</h3>
         </div>)
     })
 
     const edu = school.map((clas, index) => {
         return (
             <div className="history" key={index}>
-                <h4>{clas.name}</h4>
-                <h4>{clas.course}</h4>
-                <h4>{clas.graduation}</h4>
+                <h3>{clas.name}</h3>
+                <h3>{clas.course}</h3>
+                <h3>{clas.graduation}</h3>
             </div>
         )
     })
