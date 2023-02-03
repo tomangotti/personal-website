@@ -14,17 +14,40 @@
       
       @keyframes example {
         0%   {left:0px; top:0px;}
-        10%  {left:10px; top:0px;}
-        20%  {left:0px; top:0px;}
-        30%  {left:10px; top:0px;}
+        10%  {left:15px; top:7px;}
+        20%  {left:0px; top:7px;}
+        30%  {left:15px; top:0px;}
         40%  {left:0px; top:0px;}
-        50%  {left:10px; top:0px;}
-        60%  {left:0px; top:0px;}
-        70%  {left:10px; top:0px;}
-        80%  {left:0px; top:0px;}
-        90%  {left:10px; top:0px;}
+        50%  {left:15px; top:7px;}
+        60%  {left:0px; top:7px;}
+        70%  {left:15px; top:0px;}
+        80%  {left:0px; top:7px;}
+        90%  {left:15px; top:7px;}
         100% {left:0px; top:0px;}
       }
+
+      #ship {
+        position: relative;
+        animation-name: example2;
+        animation-duration: 60s;
+        
+      }
+
+      @keyframes example2 {
+        0%   {left:500px; top:0px;}
+        10%  {left:400px; top:15px;}
+        20%  {left:300px; top:0px;}
+        30%  {left:200px; top:20px;}
+        40%  {left:100px; top:0px;}
+        50%  {left:0px; top:10px;}
+        60%  {right:100px; top:0px;}
+        70%  {right:200px; top:30px;}
+        80%  {right:300px; top:0px;}
+        90%  {right:400px; top:10px;}
+        100% {right:500px; top:0px;}
+      }
+
+
       </style>
   </head>
   <body>
