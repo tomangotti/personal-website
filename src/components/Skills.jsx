@@ -19,6 +19,11 @@ function Skills(){
             language: "Rails",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
         },
+        ,
+        {
+            language: "SQL",
+            image: "https://www.tutorialsteacher.com/Content/images/home/sql.png"
+        },
         {
             language: "HTML",
             image: "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png"
