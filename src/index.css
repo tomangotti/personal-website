@@ -101,3 +101,11 @@ button:focus-visible {
   border: solid 5px #83fae6;
   padding: 15px 15px 15px 15px;
 }
+
+#self-image {
+  border: solid 5px #83fae6;
+  border-radius: 100%;
+  zoom: 75%;
+  max-width: 350px;
+  object-fit: none;
+}
