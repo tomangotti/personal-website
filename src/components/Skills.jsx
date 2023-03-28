@@ -19,7 +19,10 @@ function Skills(){
             language: "Rails",
             image: "https://upload.wikimedia.org/wikipedia/commons/1/16/Ruby_on_Rails-logo.png"
         },
-        ,
+        {
+            language: "Python",
+            image: "https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"
+        },
         {
             language: "SQL",
             image: "https://www.tutorialsteacher.com/Content/images/home/sql.png"

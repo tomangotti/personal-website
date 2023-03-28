@@ -109,3 +109,20 @@ button:focus-visible {
   max-width: 350px;
   object-fit: none;
 }
+
+.projects {
+  height: 230px;
+  border: solid 5px #83fae6;
+  padding-top: 10px;
+  margin: 40px 10px 40px 10px;
+  max-width: 775px;
+}
+
+.link {
+  display: inline-flex;
+}
+
+.link h5{
+  margin: 0 75px;
+  padding-top: 15px;
+}

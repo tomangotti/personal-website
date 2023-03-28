@@ -39,7 +39,7 @@ function History(){
         {
             name: "West Virginia",
             course: "Bachelor of Science in Civil Engineering",
-            graduation: "May 2016"
+            graduation: "Aug 2011 - May 2016"
         }
     ]
     const exp = work.map((job, index) => {
