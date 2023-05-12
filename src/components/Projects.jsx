@@ -4,6 +4,13 @@ function Projects(){
 
     const projects = [
         {
+            name: "Molly Michelle Beauty (Freelance Project)",
+            description: "Website showcasing all hair styles available with client having ability to customize expierence!",
+            tools: "React, Ruby on Rails, ActiveStorage, Postgresql, HTML, CSS",
+            link: "https://Mollymichellebeauty.com",
+            github: "https://github.com/tomangotti/MollyMichelleBeauty"
+        },
+        {
             name: "Gaming-Hub (Captsone project)",
             description: "A website that allows users to add or play pygames!",
             tools: "React, Ruby on Rails, Websockets, ActionCable, HTML, CSS",

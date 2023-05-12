@@ -4,6 +4,11 @@ function History(){
 
     const work = [
         {
+            company: "Freelance Web Designer",
+            years: "April 2023 - Current",
+            position: "Software Developer"
+        },
+        {
             company: "Wells Concrete",
             years: "Jan 2019 - Nov 2022",
             position: "Design Engineer"
@@ -34,7 +39,7 @@ function History(){
         {
             name: "Flatiron School",
             course: "Software Engineering",
-            graduation: "March 2023 - expected"
+            graduation: "December 2022 - March 2023"
         },
         {
             name: "West Virginia",
