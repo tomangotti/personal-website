@@ -4,6 +4,20 @@ function Projects(){
 
     const projects = [
         {
+            name: "Project Boost (Unity Game)",
+            description: "Platformer build in The Unity Game Engine.",
+            tools: "C#, Unity 3D game design",
+            link: "https://sharemygame.com/@tomangotti/tom-s-project-boost-from-unity-3d-course",
+            github: "https://github.com/tomangotti/projectBoost"
+        },
+        {
+            name: "To-Do List",
+            description: "Website build in Angular and Golang that persists after each refresh.",
+            tools: "Angular, Golang, Postgresql, HTML, CSS",
+            link: "https://to-do-list-b3f39.web.app/",
+            github: "https://github.com/tomangotti/to-do-list"
+        },
+        {
             name: "Molly Michelle Beauty (Freelance Project)",
             description: "Website showcasing all hair styles available with client having ability to customize expierence!",
             tools: "React, Ruby on Rails, ActiveStorage, Postgresql, HTML, CSS",

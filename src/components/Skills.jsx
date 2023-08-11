@@ -4,6 +4,22 @@ function Skills(){
 
     const skills = [
         {
+            language: "Angular",
+            image: "https://w7.pngwing.com/pngs/1014/365/png-transparent-angular-js-full-logo-tech-companies-thumbnail.png"
+        },
+        {
+            language: "GoLang",
+            image: "https://w7.pngwing.com/pngs/566/160/png-transparent-golang-hd-logo.png"
+        },
+        {
+            language: "C#",
+            image: "https://w7.pngwing.com/pngs/7/894/png-transparent-csharp-plain-logo-icon.png"
+        },
+        {
+            language: "Unity",
+            image: "https://w7.pngwing.com/pngs/270/765/png-transparent-unity-logo-illustration-unity-game-engine-logo-video-game-corelle-brands-angle-text-c-thumbnail.png"
+        },
+        {
             language: "JavaScript",
             image: "https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-hq-png-1.png"
         },
