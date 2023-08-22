@@ -40,6 +40,10 @@ function Skills(){
             image: "https://logos-world.net/wp-content/uploads/2021/10/Python-Symbol.png"
         },
         {
+            language: "Django",
+            image: "https://1000logos.net/wp-content/uploads/2020/08/Django-Logo.png"
+        },
+        {
             language: "SQL",
             image: "https://www.tutorialsteacher.com/Content/images/home/sql.png"
         },

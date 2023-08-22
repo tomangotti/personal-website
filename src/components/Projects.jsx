@@ -4,6 +4,13 @@ function Projects(){
 
     const projects = [
         {
+            name: "Music Player",
+            description: "Using Spotify API users can connect their account and let others play/pause/skip their songs",
+            tools: "Python, Django, JavaScript, React",
+            link: "https://github.com/tomangotti/musicPlayer",
+            github: "https://github.com/tomangotti/musicPlayer"
+        },
+        {
             name: "Project Boost (Unity Game)",
             description: "Platformer build in The Unity Game Engine.",
             tools: "C#, Unity 3D game design",
