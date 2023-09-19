@@ -4,6 +4,13 @@ function Projects(){
 
     const projects = [
         {
+            name: "Rogue Fighter Elite (Unity Game)",
+            description: "3D Space shooter build in The Unity Game Engine.",
+            tools: "C#, Unity 3D game design",
+            link: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
+            github: ""
+        },
+        {
             name: "Music Player",
             description: "Using Spotify API users can connect their account and let others play/pause/skip their songs",
             tools: "Python, Django, JavaScript, React",
