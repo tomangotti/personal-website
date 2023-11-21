@@ -4,6 +4,13 @@ function Projects(){
 
     const projects = [
         {
+            name: "The Good Cook Book (Mobile App)",
+            description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
+            tools: "React Native, Python",
+            link: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
+            github: "https://github.com/tomangotti/the-cook-book"
+        },
+        {
             name: "Rogue Fighter Elite (Unity Game)",
             description: "3D Space shooter build in The Unity Game Engine.",
             tools: "C#, Unity 3D game design",

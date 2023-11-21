@@ -5,7 +5,7 @@ function Skills(){
     const skills = [
         {
             language: "Angular",
-            image: "https://w7.pngwing.com/pngs/1014/365/png-transparent-angular-js-full-logo-tech-companies-thumbnail.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png"
         },
         {
             language: "GoLang",
