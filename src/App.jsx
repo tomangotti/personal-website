@@ -23,7 +23,7 @@ const mainTiles = [
   {
     title: "Rogue Fighter Elite (Unity Game)",
     description: "Developed immersive 3D space shooter game using Unity and C#.",
-    image: "public/images/elite_rouge_fighter.gif",
+    image: "/images/elite_rouge_fighter.gif",
     link: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
   },
   {
@@ -35,7 +35,7 @@ const mainTiles = [
   {
     title: "Project Boost (Unity Game)",
     description: "Platformer build in The Unity Game Engine.",
-    image: "public/images/space_boost.gif",
+    image: "/images/space_boost.gif",
     link: "https://sharemygame.com/@tomangotti/tom-s-project-boost-from-unity-3d-course",
   },
   

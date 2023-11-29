@@ -3,7 +3,7 @@ header {
     text-align: center;
     padding: 20px;
     color: #fff;
-    background-image: url('../../public/images/WEST-VIRGINIA.jpeg'); /* Replace with the path to your image */
+    background-image: url('/images/WEST-VIRGINIA.jpeg'); /* Replace with the path to your image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
