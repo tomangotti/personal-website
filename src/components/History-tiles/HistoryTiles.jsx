@@ -41,7 +41,7 @@ const HistoryTiles = ({title, content, duration, company}) => {
             </div>
             <div className="back">
                 <div className='back-body'>
-                    <h3>{title}</h3>
+                    <h6>{title}</h6>
                     
                     <p>{content}</p>
                 </div>

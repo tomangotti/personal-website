@@ -116,12 +116,12 @@ const skills = [
 
 const education = [
   {
-    title: "Bachelor's Degree in Civil Engineering (minor in business)",
+    title: "Bachelor's Degree in Civil Engineering",
     school: "West Virginia University, Morgantown, WV",
     year: "2011-2016"
   },
   {
-    title: "Software Engineering",
+    title: "Software Engineering Course",
     school: "Flatiron School, Denver, CO",
     year: "2022-2023"
   }

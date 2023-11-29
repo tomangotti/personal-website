@@ -33,9 +33,9 @@ const EducationTiles = ({programs}) => {
     const body = programs.map((program, index) => {
         return (
             <div key={index}>
-                <h3>{program.title}</h3>
-                <h5>{program.school}</h5>
-                <h6>{program.duration}</h6>
+                <h2>{program.title}</h2>
+                <p>{program.school}</p>
+                <p>{program.year}</p>
             </div>
         )
     })
