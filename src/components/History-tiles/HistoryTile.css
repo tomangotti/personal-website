@@ -28,7 +28,6 @@ transform: rotateY(180deg);
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .front {
@@ -40,7 +39,7 @@ transform: rotateY(180deg);
 .back {
     transform: rotateY(180deg);
     background-color: rgba(245, 236, 236, 0.2);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .tile.flipped {
@@ -58,12 +57,4 @@ transform: rotateY(180deg);
 
 .back-body p {
     margin: 15px;
-}
-
-.front-body {
-    text-align: center;
-}
-
-.front-body img{
-    margin-top: 15px;
 }

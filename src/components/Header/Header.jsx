@@ -5,8 +5,10 @@ import "./Header.css";
 function Header({name, bio}){
     return(
         <header>
-            <h1>{name}</h1>
-            <p>{bio}</p>
+            <div className="header-container">
+                <h1>{name}</h1>
+                <p>{bio}</p>
+            </div>
         </header>
     )
 }
