@@ -1,7 +1,7 @@
 
 header {
     text-align: center;
-    padding: 20px;
+    padding: 30px 0;
     color: #fff;
     background-image: url('/images/WEST-VIRGINIA.jpeg'); /* Replace with the path to your image */
     background-size: cover;
@@ -16,7 +16,7 @@ margin-bottom: 10px;
 
 header p {
     font-size: 1.2rem;
-    width: 80%;
+    width: 90%;
     align-self: center;
     margin: 35px auto;
 }
@@ -25,8 +25,8 @@ header p {
     background-color: rgba(255, 255, 255, 0.7);
     color: black;
     border-radius: 25px;
-    margin: 5px;
-    width: 75%;    
+    margin: 2px;
+    width: 85%;    
     margin: auto;
-    padding: 5px;
+    padding: 2px;
 }

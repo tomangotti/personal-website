@@ -5,6 +5,8 @@ import './App.css'
 import Tile from './components/Tile/Tile'
 import Header from './components/Header/Header'
 import HistoryTiles from './components/History-tiles/HistoryTiles'
+import SkillTile from './components/Skill-tiles/SkillTile'
+import EducationTiles from './components/Education/EducationTile'
 
 
 
@@ -89,6 +91,45 @@ const historyTiles = [
   }
 ]
 
+const skills = [
+  {
+    title: "Area of Expertise",
+    content: ["Software Development", "Project Management", "Quality Assurance", "Client Relations", "Team Collaboration", "Problem Solving", "Communication", "Leadership"]
+  },
+  {
+    title: "Programming Languages",
+    content: ["JavaScript", "Ruby", "Python", "C#", "Golang", "HTML", "CSS"]
+  },
+  {
+    title: "Frameworks",
+    content: ["React Native", "Rails", "React", "Angular", "Django", "PyGame", "Unity Game Engine"]
+  },
+  {
+    title: "Databases",
+    content: ["PostgreSQL", "SQL"]
+  },
+  {
+    title: "Tools",
+    content: ["Unity Game Engine", "AutoCAD", "Revit", "Mathcad"]
+  }
+]
+
+const education = [
+  {
+    title: "Bachelor's Degree in Civil Engineering (minor in business)",
+    school: "West Virginia University, Morgantown, WV",
+    year: "2011-2016"
+  },
+  {
+    title: "Software Engineering",
+    school: "Flatiron School, Denver, CO",
+    year: "2022-2023"
+  }
+]
+
+
+
+
 
 
 function App() {
@@ -112,6 +153,12 @@ function App() {
     )
   })
 
+  const skillsTilesContainer = skills.map((tile) => {
+    return (
+      <SkillTile title={tile.title} content={tile.content} />
+    )
+  })
+
   return (
     <>
       <div>
@@ -119,6 +166,8 @@ function App() {
       </div>
       <div className="tile-container">
         {mainTilesContainer}
+        {skillsTilesContainer}
+        <EducationTiles programs={education} />
         {historyTilesContainer}
         {additionalTilesContainer}
       </div>

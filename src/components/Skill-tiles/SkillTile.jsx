@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './HistoryTile.css';
+import './SkillTile.css';
 
-const HistoryTiles = ({title, content, duration, company}) => {
+const SkillTile = ({title, content}) => {
     const colors = ['#3498db', '#2ecc71', '#e74c3c', '#9b59b6', '#f39c12'];
     
     const [isFlipped, setIsFlipped] = useState(false);
@@ -30,24 +30,29 @@ const HistoryTiles = ({title, content, duration, company}) => {
         };
     }, [isFlipped]);
 
+    const list = content.map((item, index) => {
+        return (
+            <li key={index}>{item}</li>
+        )
+    })
+
     return (
         <div className={`tile ${isFlipped ? 'flipped' : ''}`} style={{ backgroundColor }} onClick={flipTile}>
             <div className="front">
                 <div className="front-body">
                     <h1>{title}</h1>
-                    <h5>{company}</h5>
-                    <h6>{duration}</h6>
                 </div>
             </div>
             <div className="back">
                 <div className='back-body'>
                     <h3>{title}</h3>
-                    
-                    <p>{content}</p>
+                    <ul>
+                        {list}
+                    </ul>
                 </div>
             </div>
         </div>
     );
 };
 
-export default HistoryTiles;
+export default SkillTile;
