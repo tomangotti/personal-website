@@ -15,10 +15,6 @@
 }
 
 
-/* .tile:hover {
-transform: rotateY(180deg);
-} */
-
 .front,
 .back {
     width: 100%;
@@ -39,7 +35,6 @@ transform: rotateY(180deg);
 .back {
     transform: rotateY(180deg);
     background-color: rgba(245, 236, 236, 0.2);
-    font-size: 0.9rem;
 }
 
 .tile.flipped {
@@ -50,11 +45,22 @@ transform: rotateY(180deg);
     margin: 5px;
 }
 
-.back-body {
+.back-body-hist {
     text-align: center;
-    margin: 5px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px;
+    min-width: 75%;
+    font-size: 1.0rem;
 }
 
-.back-body p {
-    margin: 5px;
+.back-body-hist h3 {
+    margin: 15px auto ;
+    width: 75%;
+}
+
+.back-body-hist p {
+    margin: 10px auto;
+    width: 75%;
 }

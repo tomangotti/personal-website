@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './Tile.css';
 import { Link } from 'react-router-dom';
 
-const Tile = ({ title, content, image, link }) => {
-    const colors = ['#3498db', '#2ecc71', '#e74c3c', '#9b59b6', '#f39c12'];
+const Tile = ({ title, content, image, demo, github }) => {
+    const colors = ['#f39c12'];
     
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -34,16 +34,19 @@ const Tile = ({ title, content, image, link }) => {
     return (
         <div className={`tile ${isFlipped ? 'flipped' : ''}`} style={{ backgroundColor }} onClick={flipTile}>
             <div className="front">
-                <div className='front-body'>
+                <div className='front-body-tile'>
                     <h1>{title}</h1>
-                    {image ? <img src={image} alt={title} style={{width: "100%"}}/>  : null}
+                    {image ? <img src={image} alt={title}/>  : null}
                 </div>
             </div>
             <div className="back">
-                <div className='back-body'>
+                <div className='back-body-tile' style={{color: backgroundColor}}>
                     <h3>{title}</h3>
                     <p>{content}</p>
-                    <Link to={link}>LINK</Link>
+                    <br />
+                    {demo ? <Link to={demo}>Demo</Link> : null}
+                    <br />
+                    {github ? <Link to={github}>GITHUB</Link> : null}
                 </div>
             </div>
         </div>

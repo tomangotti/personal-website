@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './SkillTile.css';
 
 const SkillTile = ({title, content}) => {
-    const colors = ['#3498db', '#2ecc71', '#e74c3c', '#9b59b6', '#f39c12'];
+    const colors = ['#2ecc71'];
     
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -39,12 +39,12 @@ const SkillTile = ({title, content}) => {
     return (
         <div className={`tile ${isFlipped ? 'flipped' : ''}`} style={{ backgroundColor }} onClick={flipTile}>
             <div className="front">
-                <div className="front-body">
+                <div className="front-body-skill">
                     <h1>{title}</h1>
                 </div>
             </div>
             <div className="back">
-                <div className='back-body'>
+                <div className='back-body-skill' style={{color: backgroundColor}}>
                     <h3>{title}</h3>
                     <ul>
                         {list}

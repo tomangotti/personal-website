@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './HistoryTile.css';
 
 const HistoryTiles = ({title, content, duration, company}) => {
-    const colors = ['#3498db', '#2ecc71', '#e74c3c', '#9b59b6', '#f39c12'];
+    const colors = [ '#9b59b6'];
     
     const [isFlipped, setIsFlipped] = useState(false);
 
@@ -33,16 +33,15 @@ const HistoryTiles = ({title, content, duration, company}) => {
     return (
         <div className={`tile ${isFlipped ? 'flipped' : ''}`} style={{ backgroundColor }} onClick={flipTile}>
             <div className="front">
-                <div className="front-body">
+                <div className="front-body-hist">
                     <h1>{title}</h1>
-                    <h5>{company}</h5>
-                    <h6>{duration}</h6>
+                    <h2>{company}</h2>
+                    <h3>{duration}</h3>
                 </div>
             </div>
             <div className="back">
-                <div className='back-body'>
-                    <h6>{title}</h6>
-                    
+                <div className='back-body-hist' style={{color: backgroundColor}}>
+                    <h3>{title}</h3>
                     <p>{content}</p>
                 </div>
             </div>

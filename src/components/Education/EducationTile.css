@@ -40,7 +40,7 @@ transform: rotateY(180deg);
 .back {
     transform: rotateY(180deg);
     background-color: rgba(245, 236, 236, 0.2);
-    font-size: 1.3rem;
+    font-size: 1.0rem;
 }
 
 .tile.flipped {
@@ -51,19 +51,23 @@ transform: rotateY(180deg);
     margin: 5px;
 }
 
-.back-body {
+.back-body-edu {
     text-align: center;
     margin: 15px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 60%;
 }
 
-.back-body p {
+.back-body-edu p {
     margin: 5px;
 }
 
-.front-body {
+.front-body-edu {
     text-align: center;
 }
 
-.front-body img{
+.front-body-edu img{
     margin-top: 15px;
 }

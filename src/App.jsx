@@ -17,28 +17,38 @@ const about = {
 
 const mainTiles = [
   {
+    title: "Character Generator",
+    description: "Developed an application leveraging OpenAI's API to generate dynamic characters. Integrated WebSocket technology to open interactive chat boxes, enabling users to engage in real-time conversations with the characters. Using React and Node.js",
+    image: "",
+    github:"https://github.com/tomangotti/ai-texting-app",
+    demo: "https://ai-character-generator.onrender.com/"
+  },
+  {
     title: "The Good Cook Book (Mobile App)",
     description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
     image: "",
-    link: "https://github.com/tomangotti/the-cook-book",
+    github: "https://github.com/tomangotti/the-cook-book",
   },
   {
     title: "Rogue Fighter Elite (Unity Game)",
     description: "Developed immersive 3D space shooter game using Unity and C#.",
     image: "/images/elite_rouge_fighter.gif",
-    link: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
+    github: "",
+    demo: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
   },
   {
     title: "Music Player",
     description: "Designed music player with Spotify integration by leveraging Python, Django, JavaScript, and React.",
     image: "",
-    link: "https://github.com/tomangotti/musicPlayer"
+    github: "https://github.com/tomangotti/musicPlayer",
+    demo: "",
   },
   {
     title: "Project Boost (Unity Game)",
     description: "Platformer build in The Unity Game Engine.",
     image: "/images/space_boost.gif",
-    link: "https://sharemygame.com/@tomangotti/tom-s-project-boost-from-unity-3d-course",
+    github: "",
+    demo: "https://sharemygame.com/@tomangotti/tom-s-project-boost-from-unity-3d-course",
   },
   
 ]
@@ -48,25 +58,29 @@ const additionalTiles = [
     title: "To-Do List",
     description: "Website build in Angular and Golang that persists after each refresh.",
     image: "",
-    link: "https://to-do-list-b3f39.web.app/",
+    github: "",
+    demo: "https://to-do-list-b3f39.web.app/",
   },
   {
     title: "Molly Michelle Beauty (Freelance Project)",
     description: "Established dynamic beauty salon website to enable admin customization of styles and efficient management of photos.",
     image: "",
-    link: "https://Mollymichellebeauty.com",
+    github: "",
+    demo: "https://Mollymichellebeauty.com",
   },
   {
     title: "Gaming-Hub (Captsone project)",
     description: "Website that allows users to add or play pygames and share feedback with other users.",
     image: "",
-    link: "https://gaminghub.onrender.com",
+    github: "",
+    demo: "https://gaminghub.onrender.com",
   },
   {
     title: "SpaceShooter (Pygame)",
     description: "2D space shooter game developed using Python and Pygame.",
     image: "",
-    link: "https://tomangotti.itch.io/spaceshooters",
+    github: "",
+    demo: "https://tomangotti.itch.io/spaceshooters",
   }
 ]
 
@@ -98,15 +112,11 @@ const skills = [
   },
   {
     title: "Programming Languages",
-    content: ["JavaScript", "Ruby", "Python", "C#", "Golang", "HTML", "CSS"]
+    content: ["JavaScript", "Ruby", "Python", "C#", "Golang", "SQL", "HTML", "CSS"]
   },
   {
     title: "Frameworks",
-    content: ["React Native", "Rails", "React", "Angular", "Django", "PyGame", "Unity Game Engine"]
-  },
-  {
-    title: "Databases",
-    content: ["PostgreSQL", "SQL"]
+    content: ["React Native", "Rails", "React", "Node.js", "Angular", "Django", "PyGame"]
   },
   {
     title: "Tools",
@@ -137,13 +147,13 @@ function App() {
 
   const mainTilesContainer = mainTiles.map((tile) => {
     return (
-      <Tile title={tile.title} content={tile.description} image={tile.image} link={tile.link} />
+      <Tile title={tile.title} content={tile.description} image={tile.image} demo={tile.demo} github={tile.github}/>
     )
   })
   
   const additionalTilesContainer = additionalTiles.map((tile) => {
     return (
-      <Tile title={tile.title} content={tile.description} image={tile.image} link={tile.link} />
+      <Tile title={tile.title} content={tile.description} image={tile.image} demo={tile.demo} github={tile.github} />
     )
   })
 

@@ -15,10 +15,6 @@
 
 
 
-/* .tile:hover {
-transform: rotateY(180deg);
-} */
-
 .front,
 .back {
     width: 100%;
@@ -34,13 +30,11 @@ transform: rotateY(180deg);
 .front {
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
-    font-size: 1.2rem;
 }
 
 .back {
     transform: rotateY(180deg);
     background-color: rgba(245, 236, 236, 0.2);
-    font-size: 1.5rem;
 }
 
 .tile.flipped {
@@ -51,19 +45,30 @@ transform: rotateY(180deg);
     margin: 5px;
 }
 
-.back-body {
+.back-body-skill {
     text-align: center;
+    margin: 15px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    min-width: 60%;
+    font-size: 1.2rem;
+}
+
+.back-body-skill p {
     margin: 15px;
 }
 
-.back-body p {
-    margin: 15px;
-}
-
-.front-body {
+.front-body-skill {
     text-align: center;
+    
+    font-size: 1.7rem;
 }
 
-.front-body img{
+.front-body-skill img{
     margin-top: 15px;
+}
+
+.back-body-skill li {
+    margin: 5px;
 }
