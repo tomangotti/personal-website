@@ -19,7 +19,7 @@ const mainTiles = [
   {
     title: "Character Generator",
     description: "Developed an application leveraging OpenAI's API to generate dynamic characters. Integrated WebSocket technology to open interactive chat boxes, enabling users to engage in real-time conversations with the characters. Using React and Node.js",
-    image: "",
+    image: "/images/ai_chat_model.gif",
     github:"https://github.com/tomangotti/ai-texting-app",
     demo: "https://ai-character-generator.onrender.com/"
   },
@@ -28,6 +28,7 @@ const mainTiles = [
     description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
     image: "",
     github: "https://github.com/tomangotti/the-cook-book",
+    demo: "",
   },
   {
     title: "Rogue Fighter Elite (Unity Game)",
@@ -35,13 +36,6 @@ const mainTiles = [
     image: "/images/elite_rouge_fighter.gif",
     github: "",
     demo: "https://sharemygame.com/@tomangotti/rogue-fighter-elite",
-  },
-  {
-    title: "Music Player",
-    description: "Designed music player with Spotify integration by leveraging Python, Django, JavaScript, and React.",
-    image: "",
-    github: "https://github.com/tomangotti/musicPlayer",
-    demo: "",
   },
   {
     title: "Project Boost (Unity Game)",
@@ -54,32 +48,40 @@ const mainTiles = [
 ]
 
 const additionalTiles = [
+  
+  {
+    title: "Music Player",
+    description: "Designed music player with Spotify integration by leveraging Python, Django, JavaScript, and React.",
+    image: "",
+    github: "https://github.com/tomangotti/musicPlayer",
+    demo: "",
+  },
   {
     title: "To-Do List",
     description: "Website build in Angular and Golang that persists after each refresh.",
     image: "",
-    github: "",
+    github: "https://github.com/tomangotti/to-do-list",
     demo: "https://to-do-list-b3f39.web.app/",
   },
   {
     title: "Molly Michelle Beauty (Freelance Project)",
     description: "Established dynamic beauty salon website to enable admin customization of styles and efficient management of photos.",
     image: "",
-    github: "",
+    github: "https://github.com/tomangotti/MollyMichelleBeauty",
     demo: "https://Mollymichellebeauty.com",
   },
   {
     title: "Gaming-Hub (Captsone project)",
     description: "Website that allows users to add or play pygames and share feedback with other users.",
     image: "",
-    github: "",
-    demo: "https://gaminghub.onrender.com",
+    github: "https://github.com/tomangotti/gaminghub",
+    demo: "",
   },
   {
     title: "SpaceShooter (Pygame)",
     description: "2D space shooter game developed using Python and Pygame.",
     image: "",
-    github: "",
+    github: "https://github.com/tomangotti/SpaceShooter",
     demo: "https://tomangotti.itch.io/spaceshooters",
   }
 ]
