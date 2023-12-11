@@ -48,7 +48,20 @@ const mainTiles = [
 ]
 
 const additionalTiles = [
-  
+  {
+    title: "Stem School (Structural Engineering)",
+    description: "A Precast School Building Design for a STEM School in Colorado.",
+    image: "/images/Stem School.png",
+    github: "",
+    demo: "",
+  },
+  {
+    title: "Empirical (Structural Engineering)",
+    description: "A Massive Meat Processing Facility Design in Kansas. One of the Largest Projects in my Companies History.",
+    image: "/images/Empirical.png",
+    github: "",
+    demo: "",
+  },
   {
     title: "Music Player",
     description: "Designed music player with Spotify integration by leveraging Python, Django, JavaScript, and React.",
@@ -62,6 +75,13 @@ const additionalTiles = [
     image: "",
     github: "https://github.com/tomangotti/to-do-list",
     demo: "https://to-do-list-b3f39.web.app/",
+  },
+  {
+    title: "Broomfield Garage (Structural Engineering)",
+    description: "A Precast Parking Garage Design in Broomfield, CO.",
+    image: "/images/Broomfield Garage.png",
+    github: "",
+    demo: "",
   },
   {
     title: "Molly Michelle Beauty (Freelance Project)",
@@ -85,6 +105,8 @@ const additionalTiles = [
     demo: "https://tomangotti.itch.io/spaceshooters",
   }
 ]
+
+
 
 const historyTiles = [
   {

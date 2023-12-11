@@ -19,7 +19,7 @@ const EducationTiles = ({programs}) => {
     };
 
     useEffect(() => {
-        const randomInterval = Math.floor(Math.random() * (20000 - 2000 + 1)) + 3000;
+        const randomInterval = Math.floor(Math.random() * (20000 - 2000 + 1)) + 5000;
     
         const intervalId = setInterval(() => {
             flipTile();
