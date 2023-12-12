@@ -26,7 +26,7 @@ const mainTiles = [
   {
     title: "The Good Cook Book (Mobile App)",
     description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
-    image: "",
+    image: "/images/thegoodcookbook.gif",
     github: "https://github.com/tomangotti/the-cook-book",
     demo: "",
   },
