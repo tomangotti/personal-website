@@ -17,18 +17,18 @@ const about = {
 
 const mainTiles = [
   {
-    title: "Character Generator",
-    description: "Developed an application leveraging OpenAI's API to generate dynamic characters. Integrated WebSocket technology to open interactive chat boxes, enabling users to engage in real-time conversations with the characters. Using React and Node.js",
-    image: "/images/ai_chat_model.gif",
-    github:"https://github.com/tomangotti/ai-texting-app",
-    demo: "https://ai-character-generator.onrender.com/"
-  },
-  {
     title: "The Good Cook Book (Mobile App)",
     description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
     image: "/images/thegoodcookbook.gif",
     github: "https://github.com/tomangotti/the-cook-book",
     demo: "",
+  },
+  {
+    title: "Character Generator",
+    description: "Developed an application leveraging OpenAI's API to generate dynamic characters. Integrated WebSocket technology to open interactive chat boxes, enabling users to engage in real-time conversations with the characters. Using React and Node.js",
+    image: "/images/ai_chat_model.gif",
+    github:"https://github.com/tomangotti/ai-texting-app",
+    demo: "https://ai-character-generator.onrender.com/"
   },
   {
     title: "Rogue Fighter Elite (Unity Game)",
