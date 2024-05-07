@@ -21,7 +21,7 @@ const mainTiles = [
     description: "Created cross-platform mobile app for both Android and iOS, empowering users to create, store, and share favorite recipes.",
     image: "/images/thegoodcookbook.gif",
     github: "https://github.com/tomangotti/the-cook-book",
-    demo: "",
+    demo: "https://play.google.com/store/apps/details?id=com.tomangotti.thecookbook",
   },
   {
     title: "Character Generator",
