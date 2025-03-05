@@ -1,4 +1,5 @@
-import { useState } from 'react'
+
+import React, {useState} from 'react'
 import './App.css'
 
 
@@ -20,7 +21,7 @@ const prioriteExperience = [
     title: "Software Developer",
     company: "Yuma Way",
     years: "July 2024 - Current",
-    description: "Developing EHR System for Wellness Centers using CRM (GoHighLevel), React, and AWS. Lead developer on a mobile app using React Native, Expo, AWS, and Firebase for a patient portal. Launched Almadelic, a platform for connecting patients to therapists for psychedelic therapy."
+    description: "Experienced Software Engineer with a strong background in developing user-friendly web interfaces, optimizing site performance, ensuring accessibility, and managing backend services using AWS. Proficient in React, Material UI, and various AWS services, with a focus on delivering high-quality, efficient, and accessible web solutions. Developing EHR System for Wellness Centers using CRM (GoHighLevel), React and AWS. Developer Lead on Mobile App using React Native, Expo, AWS and Firebase for a patient portal. Launched a New Platform, Almadelic, for Psychedelic Therapy connecting Patients to Therapists"
   },
 ]
 
