@@ -15,6 +15,15 @@ const about = {
   bio: "Technically-inclined professional with passion to influence future of digital world through effective development and implementation of web-based applications, platforms, and systems. Demonstrated expertise in collaborating with clients and cross-functional teams to analyze needs and implement innovative software solutions. Possess strong understanding of software engineering theories, project management methodologies, and broad portfolio of tools, languages, frameworks, and databases. Refined communicator with ability to translate complex technical concepts into actionable insights for diverse stakeholders."
 }
 
+const prioriteExperience = [
+  {
+    title: "Software Developer",
+    company: "Yuma Way",
+    years: "July 2024 - Current",
+    description: "Developing EHR System for Wellness Centers using CRM (GoHighLevel), React, and AWS. Lead developer on a mobile app using React Native, Expo, AWS, and Firebase for a patient portal. Launched Almadelic, a platform for connecting patients to therapists for psychedelic therapy."
+  },
+]
+
 const mainTiles = [
   {
     title: "The Good Cook Book (Mobile App)",
@@ -167,6 +176,12 @@ const education = [
 
 
 function App() {
+
+  const prioriteExperienceContainer = prioriteExperience.map((tile) => {
+    return (
+      <HistoryTiles title={tile.title} content={tile.description} duration={tile.years} company={tile.company} />
+    )
+  })
   
 
   const mainTilesContainer = mainTiles.map((tile) => {
@@ -199,6 +214,7 @@ function App() {
         <Header name={about.name} bio={about.bio}/>
       </div>
       <div className="tile-container">
+        {prioriteExperienceContainer}
         {mainTilesContainer}
         {skillsTilesContainer}
         <EducationTiles programs={education} />
